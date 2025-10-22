@@ -136,38 +136,38 @@ This project is developed by the community and we greatly appreciate your suppor
 - 📝 Contribute documentation
 - 🔄 Share project with community
 
-## 📄 License / Giấy phép
+## 📄 License
 
-This project is released under **Public Domain** license. You are free to use, modify and distribute without permission. / Dự án này được phát hành dưới giấy phép **Public Domain**. Bạn có thể tự do sử dụng, chỉnh sửa và phân phối mà không cần xin phép.
+This project is released under **Public Domain** license. You are free to use, modify and distribute without permission.
 
-## 👥 Contributing / Đóng góp
+## 👥 Contributing
 
-We welcome all contributions from the community! Please: / Chúng tôi hoan nghênh mọi đóng góp từ cộng đồng! Hãy:
+We welcome all contributions from the community! Please:
 
-1. Fork this repository / Fork repository này
-2. Create branch for new feature / Tạo branch cho tính năng mới (`git checkout -b feature/AmazingFeature`)
-3. Commit changes / Commit thay đổi (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch / Push lên branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request / Mở Pull Request
+1. Fork this repository
+2. Create branch for new feature (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open Pull Request
 
-## 📞 Contact / Liên hệ
+## 📞 Contact
 
 - **Website**: [hbqsolution.com](https://hbqsolution.com)
 - **Email**: support@hbqsolution.com
 - **GitHub**: [@hbqsolutioncompany](https://github.com/hbqsolutioncompany)
 - **Store**: [store.hbqsolution.com](https://store.hbqsolution.com)
 
-## 🙏 Acknowledgments / Lời cảm ơn
+## 🙏 Acknowledgments
 
-Thanks to all contributors and community who supported this project. Special thanks to: / Cảm ơn tất cả các contributor và cộng đồng đã hỗ trợ dự án này. Đặc biệt cảm ơn:
+Thanks to all contributors and community who supported this project. Special thanks to:
 
-- Arduino/ESP32 community / Cộng đồng Arduino/ESP32
-- LoRa community / Cộng đồng LoRa
-- All developers who contributed code / Tất cả các developer đã đóng góp code
-- Testers and beta users / Các tester và người dùng beta
+- Arduino/ESP32 community
+- LoRa community
+- All developers who contributed code
+- Testers and beta users
 
 ---
 
-**⭐ If this project is helpful, please give us a star! ⭐** / **⭐ Nếu dự án này hữu ích, hãy cho chúng tôi một star! ⭐**
+**⭐ If this project is helpful, please give us a star! ⭐**
 
-*Developed with ❤️ by HBQ Solution Company* / *Được phát triển với ❤️ bởi HBQ Solution Company*
+*Developed with ❤️ by HBQ Solution Company*
