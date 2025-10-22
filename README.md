@@ -8,6 +8,8 @@
 
 **BSEN WIFI LORA IoT Platform** is a comprehensive IoT platform that combines WiFi and LoRa to create a flexible and powerful network connectivity solution. This project is designed to support IoT applications from basic to complex, with diverse connectivity capabilities and efficient data management.
 
+![BSEN_3D](https://github.com/user-attachments/assets/4914a530-e1f3-4469-9229-12d4f3110b18)
+
 ## 🚀 Key Features
 
 ### 🌐 Multi-Connectivity
@@ -125,10 +127,10 @@ const char* password = "YOUR_WIFI_PASSWORD";
 This project is developed by the community and we greatly appreciate your support!
 
 ### 💰 Donate via GitHub
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ea4aaa?logo=github&logoColor=white)](https://github.com/sponsors/hbqsolutioncompany)
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ea4aaa?logo=github&logoColor=white)](https://github.com/sponsors/hbqtechnologycompany)
 
 ### 💳 Donate via PayPal
-[![PayPal](https://img.shields.io/badge/PayPal-Donate-0070ba?logo=paypal&logoColor=white)](https://paypal.me/hbqsolutioncompany)
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-0070ba?logo=paypal&logoColor=white)](https://paypal.me/hbqtechnology)
 
 ### 🎯 Other Ways to Support
 - ⭐ Star this repository
@@ -152,8 +154,8 @@ We welcome all contributions from the community! Please:
 
 ## 📞 Contact
 
-- **Website**: [hbqsolution.com](https://hbqsolution.com)
-- **Email**: support@hbqsolution.com
+- **Website**: [web.hbqsolution.com](www.web.hbqsolution.com)
+- **Email**: support@hbqsolution.com / hbqsolution@gmail.com
 - **GitHub**: [@hbqsolutioncompany](https://github.com/hbqsolutioncompany)
 - **Store**: [store.hbqsolution.com](https://store.hbqsolution.com)
 
