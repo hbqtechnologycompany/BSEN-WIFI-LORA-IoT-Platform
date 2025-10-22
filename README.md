@@ -11,7 +11,7 @@
 ![BSEN_3D](https://github.com/user-attachments/assets/4914a530-e1f3-4469-9229-12d4f3110b18)
 
 ### 🔧 Hardware Specifications
-- **Microcontroller**: ESP32-S3 or ESP32-C6 (user selectable)
+- **Microcontroller**: ESP32-S3 or ESP32-C6 (factory option)
 - **LoRa Module**: SX1276 (868MHz)
 - **WiFi**: 2.4GHz IEEE 802.11 b/g/n (ESP32-S3) / WiFi 6 (ESP32-C6)
 - **Bluetooth**: Bluetooth 5.0 LE (ESP32-S3) / Bluetooth 5.2 LE (ESP32-C6)
@@ -51,9 +51,8 @@
 
 ### 🛡️ Protection & Reliability
 - **ESD Protection**: ±8kV ESD protection on all I/O pins
-- **Overvoltage Protection**: Input voltage protection up to 12V
+- **Overvoltage Protection**: Input voltage protection up to 36V
 - **Reverse Polarity Protection**: Built-in reverse polarity protection
-- **EMI Shielding**: RF shielding for improved performance
 
 ## 📁 Hardware Documentation
 
@@ -65,8 +64,6 @@ BSEN-WIFI-LORA-IoT-Platform/
 ├── documentation/                # Hardware documentation
 │   ├── datasheet/               # Component datasheets
 │   ├── pinout/                  # Pinout diagrams
-│   └── assembly/                # Assembly instructions
-├── examples/                     # Hardware examples
 └── README.md                     # This documentation
 ```
 
@@ -93,7 +90,6 @@ BSEN-WIFI-LORA-IoT-Platform/
 - **USB-C Connector**: USB-C for programming, power, and debugging
 - **Power Connector**: 6-36V DC input + screw terminal
 - **UART Connector**: 6-pin header (3.3V TTL)
-- **GPIO Header**: 20-pin expansion header
 - **RS485 Connector**: 3-pin terminal block (A, B, GND)
 - **Relay Outputs**: 2x 3-pin terminal blocks (NO, NC, COM)
 - **Analog Inputs**: 4x 3-pin terminal blocks (4-20mA/0-5V)
@@ -115,7 +111,7 @@ BSEN-WIFI-LORA-IoT-Platform/
 - **DC Input**: 6-36V DC via screw terminal (industrial applications)
 - **Battery Backup**: 3.7V Li-ion/Li-Po via JST connector
 - **Power LED**: Green LED indicates power on
-- **Status LED**: RGB LED for system status indication
+- **Status LED**: LED for system status indication
 - **Voltage Monitoring**: Built-in voltage divider for monitoring
 
 ### 3. Interface Connections
@@ -133,7 +129,6 @@ BSEN-WIFI-LORA-IoT-Platform/
 ### 4. Antenna Configuration
 - **WiFi Antenna**: Integrated 2.4GHz antenna( or external antenna IPEX connector)
 - **LoRa Antenna**: 8685MHz external antenna (IPEX connector)
-- **Antenna Selection**: Hardware switch for antenna routing
 
 ## 🔧 Hardware Configuration
 
@@ -185,27 +180,6 @@ BSEN-WIFI-LORA-IoT-Platform/
 #define BATTERY_ADC_PIN A0
 #define VOLTAGE_DIVIDER_RATIO 2.0
 
-// Sleep Configuration (ESP32-S3/ESP32-C6)
-#define SLEEP_TIME_MS  30000  // 30 seconds
-#define DEEP_SLEEP_MODE 1     // Deep sleep enabled
-#define ULP_MODE 1            // Ultra Low Power mode (ESP32-S3)
-
-// Status LED
-#define STATUS_LED_PIN 3
-#define STATUS_LED_RED 0
-#define STATUS_LED_GREEN 1
-#define STATUS_LED_BLUE 2
-```
-
-### Radio Configuration
-```cpp
-// LoRa Radio Settings
-#define LORA_FREQUENCY 868E6      // 868 MHz (EU) / 915E6 (US)
-#define LORA_TX_POWER 14          // 14 dBm (25mW)
-#define LORA_SPREADING_FACTOR 7   // SF7
-#define LORA_BANDWIDTH 125E3      // 125 kHz
-#define LORA_CODING_RATE 5        // 4/5
-```
 
 ## 📊 Hardware Applications
 
@@ -246,15 +220,11 @@ BSEN-WIFI-LORA-IoT-Platform/
 
 ### 📦 Available Hardware
 - ✅ **Complete Development Kit**: Board + antennas + cables + documentation
-- ✅ **Bare PCB**: Unassembled PCB for custom projects
-- ✅ **Component Kit**: All components for DIY assembly
-- ✅ **Antenna Kit**: WiFi + LoRa antennas with connectors
-- ✅ **Accessory Kit**: Cables, connectors, and mounting hardware
+- ✅ **Accessory Kit**: Cables,antennas, and enclosure
 
 ### 🔧 Hardware Specifications
-- **PCB Layers**: 4-layer FR4 with ground plane
+- **PCB Layers**: 2-layer FR4.
 - **Surface Finish**: HASL (Hot Air Solder Leveling)
-- **Component Mounting**: SMD components with through-hole connectors
 - **Testing**: 100% functional testing before shipment
 - **Warranty**: 1-year hardware warranty
 
