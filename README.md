@@ -173,15 +173,8 @@ BSEN-WIFI-LORA-IoT-Platform/
 #define I2C_SCL_PIN    22
 ```
 
-### Power Management Settings
-```cpp
-// Power Control
-#define POWER_EN_PIN   12
-#define BATTERY_ADC_PIN A0
-#define VOLTAGE_DIVIDER_RATIO 2.0
 
-
-## 📊 Hardware Applications
+## 📊 Applications
 
 ### 🏠 Smart Home Applications
 - **Sensor Nodes**: Temperature, humidity, motion sensors via I2C
@@ -232,11 +225,9 @@ BSEN-WIFI-LORA-IoT-Platform/
 
 This project is developed by the community and we greatly appreciate your support!
 
-### 💰 Donate via GitHub
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ea4aaa?logo=github&logoColor=white)](https://github.com/sponsors/hbqtechnologycompany)
-
-### 💳 Donate via PayPal
-[![PayPal](https://img.shields.io/badge/PayPal-Donate-0070ba?logo=paypal&logoColor=white)](https://paypal.me/hbqtechnology)
+### Support the Project
+- PayPal Donate: [![PayPal Donate](https://img.shields.io/badge/PayPal-Donate-0070ba?logo=paypal&logoColor=white)](https://paypal.me/hbqtechnology)
+- GitHub Sponsors : [![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ea4aaa?logo=github&logoColor=white)](https://github.com/sponsors/hbqtechnologycompany)
 
 ### 🎯 Other Ways to Support
 - ⭐ Star this repository
